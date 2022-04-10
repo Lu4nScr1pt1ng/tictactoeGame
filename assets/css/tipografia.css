@@ -1,0 +1,36 @@
+/* 
+font-family: 'Fugaz One', cursive;
+font-family: 'Luckiest Guy', cursive;
+*/
+
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFF;
+    font-size: 64px;
+    text-shadow: 6px 8px 6px #000 ;
+}
+
+p {
+    font-family: 'Fugaz One', cursive;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 6px 4px #000;
+    max-width: 60ch;
+    letter-spacing: 1.1px;
+}
+
+.apresentaJogo button {
+    font-family: 'Fugaz One', cursive;
+    font-size: 24px;
+    color: white;
+    margin: 0 20px;
+}
+
+
+.botoes-cima button {
+    font-family: 'Fugaz One', cursive;
+    font-size: 18px;
+    color: white;
+    
+}
