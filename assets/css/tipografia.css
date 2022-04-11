@@ -1,13 +1,15 @@
 /* 
 font-family: 'Fugaz One', cursive;
 font-family: 'Luckiest Guy', cursive;
+font-family: 'Lilita One', cursive;
 */
 
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
-    color: #FFF;
+    color: rgb(255, 255, 255);
     font-size: 64px;
+    letter-spacing: 2px;
     text-shadow: 6px 8px 6px #000 ;
 }
 

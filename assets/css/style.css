@@ -70,20 +70,6 @@
 }
 
 
-.placar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin: 15px 0; 
-
-}
-
-.placar-heading {
-    text-align: center;
-    font-size: 32px;
-    margin-right: 25px;
-}
 
 
 .tabuleiro {
@@ -101,28 +87,59 @@
 }
 
 
-.posicao1, .posicao2, .posicao3 {
+#block-1, #block-2, #block-3 {
     border-top: none;
 }
 
-.posicao4, .posicao7, .posicao1 {
+#block-4, #block-7, #block-1 {
     border-left: none;
 }
 
-.posicao3, .posicao6, .posicao9 {
+#block-3, #block-6, #block-9 {
     border-right: none;
 }
 
-.posicao7, .posicao8, .posicao9 {
+#block-7, #block-8, #block-9 {
     border-bottom: none;
 }
 
 /* Score */
 
 .placar-scores {
-    background-color: green;
-    padding: 10px;
+    background-color: violet;
+    padding: 10px 30px; 
     border-radius: 12px;
+}
+
+.placar-scores p {
+    display: inline-block;
+    text-shadow: none;
+    font-size: 24px;
+}
+
+.placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px 0; 
+
+}
+
+.placar-scores .ox {
+    color: red;
+    font-size: 24px;
+}
+
+.placar-scores .oo {
+    color: green;
+    font-size: 24px;
+}
+
+.placar-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-right: 25px;
 }
 
 
@@ -139,13 +156,17 @@
     padding: 10px 25px;
     text-align: center;
     border-radius: 18px;
-    margin-left: 9px;
+    margin-left: 15px;
     
 }
 
 .botoes-cima button:hover {
     cursor: pointer;
+    background-color: #8B9DC3;
+    transform: scale(1.1);
 }
+
+
 
 /* Botoes */
 
@@ -153,16 +174,44 @@
 /* message */
 
 #message p {
-    /* display: block; */
-    display: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    display: block;
     position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 150px;
-    width: 500px;
+    top: 300px;
+    width: 600px;
     font-size: 50px;
     background-color: #000;
     color: #FFF;
-    padding: 20px;
+    padding: 40px 30px;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+
+
+
+/* x e O */
+
+.x {
+    font-size: 100px;
+    color: red;
+    display: inline-block;
+    line-height: 150px;
+    margin-left: 23%;
+    text-shadow: 2px 2px 5px black;
+}
+
+.o {
+    width: 65px;
+    height: 65px;
+    border: 8px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 25%;
+    box-shadow: 3px 3px 5px black;
 }
