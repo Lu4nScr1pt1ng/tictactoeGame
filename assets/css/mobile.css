@@ -1,0 +1,125 @@
+@media (max-width: 670px) {
+    .apresentaJogo p {
+        max-width: 50ch;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 30px;
+    }
+    .apresentaJogo h1 {
+        margin-bottom: 30px;
+    }
+
+    .apresentaJogo button {
+        padding: 16px 30px;
+    }
+}
+
+@media (max-width: 495px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apresentaJogo h1 {
+        font-size: 50px;
+    }
+
+    .tabuleiro {
+        width: 100px;
+        justify-content: center;
+    }
+
+    .o {
+        margin-left: 15%;
+    }
+
+    .box {
+        width: 125px;
+    }
+
+    #message p {
+        width: 300px;
+    }
+
+    .apresentaJogo p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+
+    .apresentaJogo button {
+        margin-top: 16px;;
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        margin-top: 16px;
+    }
+}
+
+
+@media (max-width: 385px) {
+    .apresentaJogo h1 {
+        font-size: 40px;
+    }
+    .apresentaJogo p {
+        font-size: 14px;
+    }
+
+    .tabuleiro {
+        margin-top: 90px;
+        width: 100px;
+    }
+
+    .box {
+        height: 110px;
+        width: 110px;
+    }
+    .o {
+        margin-left: 15%;
+        margin-top: 13%;
+    }
+    .x {
+        margin-top: -22px;
+        margin-left: 20px;
+    }
+
+    #message p {
+        width: 250px;
+        font-size: 30px;
+
+    }
+}
+
+
+@media (max-width: 375px) {
+    .botoes-cima {
+        margin-right: 13px;
+    }
+
+    .botoes-cima button {
+        padding: 10px 10px;
+    }
+
+    #message p {
+        width: 200px;
+        font-size: 28px;
+
+    }
+    .box {
+        height: 90px;
+        width: 90px;
+    }
+
+    .o {
+        margin-left: 15%;
+        margin-top: 13%;
+        width: 48px;
+        height: 48px;
+    }
+    .x {
+        margin-top: -32px;
+        margin-left: 15px;
+        font-size: 85px;
+    }
+}
